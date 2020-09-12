@@ -1,11 +1,11 @@
 import React from 'react';
-import { View, Text, Image, TextInput, TouchableOpacity } from 'react-native';
+import { View, Text, Image, TextInput } from 'react-native';
 import styles from './styles'
 import Button from '../../components/Button'
 
 import logo from '../../../assets/logo.png'
 
-export default function Login({navigation}) {
+export default function redefinePass() {
   return (
     <View style={styles.container}>
         <Image source={logo}/>
@@ -17,13 +17,6 @@ export default function Login({navigation}) {
           placeholder='Email'
           style={styles.input}
         />
-        <TextInput
-          name='user'
-          keyboardType='email-address'
-          autoCapitalize='none'
-          placeholder='Senha'
-          style={styles.input}
-        />
       </View>
       <Button 
         style='outline'
@@ -31,16 +24,6 @@ export default function Login({navigation}) {
       >
         <Text style={styles.text_primary}>ENTRAR</Text>
       </Button>
-      <TouchableOpacity 
-        onPress={() => navigation.navigate('RedefinePass')} 
-        style={styles.redefinePass}
-      >
-        <Text 
-          style={styles.text_primary}
-        >
-          Esqueceu sua senha?
-        </Text>
-      </TouchableOpacity>
     </View>
   )
 }
