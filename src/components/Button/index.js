@@ -1,0 +1,18 @@
+import React from 'react';
+import { TouchableOpacity, Text } from 'react-native';
+
+import styles from './styles';
+
+export default function Button(props) {
+  return (
+    <TouchableOpacity
+      onPress={props.Press}
+      style={props.style == 'outline' 
+        ? styles.btn_outline_primary 
+        : styles.btn_primary}
+    >
+      {props.children}
+    </TouchableOpacity>
+  )
+}
+
