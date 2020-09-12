@@ -10,6 +10,12 @@ import Signup from './view/Signup'
 import RedefinePass from './view/RedefinePass'
 import Index from './view/Index';
 
+const optionsHeader = () => ({
+  headerStyle:{
+    backgroundColor: '#ffe600'
+  }
+})
+
 
 export default function Navigation(){
   return(
@@ -18,18 +24,22 @@ export default function Navigation(){
         <Stack.Screen 
           name='Home'
           component={Home}
+          options={optionsHeader}
         />
         <Stack.Screen 
           name='Login'
           component={Login}
+          options={optionsHeader}
         />
         <Stack.Screen 
           name='Signup'
           component={Signup}
+          options={optionsHeader}
         />
         <Stack.Screen 
           name='RedefinePass'
           component={RedefinePass}
+          options={optionsHeader}
         />
         <Stack.Screen 
           name='Index'

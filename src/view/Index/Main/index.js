@@ -1,12 +1,12 @@
 import React from 'react';
-import { View, Text, ScrollView, Image } from 'react-native';
+import { View, Text, ScrollView, Image, TouchableOpacity } from 'react-native';
 
 import styles from './styles';
 
 export default function Main() {
   return (
-    <ScrollView>
+    <View style={styles.container}>
       <Text>Página Principal</Text>
-    </ScrollView>
-  )
+    </View>
+  );
 }

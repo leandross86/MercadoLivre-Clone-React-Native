@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, InteractionManager, Alert } from 'react-native';
+import { View, Text, Image, Alert } from 'react-native';
 import { createDrawerNavigator, DrawerContentScrollView, DrawerItem } from '@react-navigation/drawer'
 
 import styles from './styles';
