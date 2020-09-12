@@ -5,13 +5,13 @@ import Button from '../../components/Button'
 
 import logo from '../../../assets/logo.png'
 
-export default function Home() {
+export default function Home({navigation}) {
   return (
     <View style={styles.container}>
       <Image source={logo}/>
       <Button 
         style='outline'
-        onPress={false}
+        onPress={() => navigation.navigate('Login')}
       >
         <Text>ENTRAR</Text>
       </Button>
