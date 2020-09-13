@@ -3,12 +3,11 @@ import { TouchableOpacity, TextInput, View, Alert } from "react-native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { EvilIcons, Feather } from "@expo/vector-icons";
 
-import List from '../List'
 import Main from '../Main'
-import styles from './styles'
-
+import List from '../List'
 const Stack = createStackNavigator()
 
+import styles from './styles'
 
 
 const SearchBarHeader = () => {
