@@ -36,31 +36,31 @@ export default function List() {
   const listProduct = [
     {
       id: '2',
-      name: 'TV',
-      price: 1250.27,
+      name: 'Macbook',
+      price: 12098.27,
       condition: 'Novo',
       picture: "https://www.casasbahia-imagens.com.br/Informatica/Notebook/55006647/1312426042/macbook-air-apple-core-i5-8gb-512gb-ssd-tela-retina-13-3-macos-mvh22bz-a-cinza-espacial-55006647.jpg"
     },
     {
       id: '1',
-      name: 'TV2',
-      price: 1250.27,
+      name: 'TV LG 4K 50"',
+      price: 2099.00,
       condition: 'Novo',
-      picture: "https://www.casasbahia-imagens.com.br/Informatica/Notebook/55006647/1312426042/macbook-air-apple-core-i5-8gb-512gb-ssd-tela-retina-13-3-macos-mvh22bz-a-cinza-espacial-55006647.jpg"
+      picture: "https://www.casasbahia-imagens.com.br/tv-video/Televisores/TV4K/55000477/1212970868/smart-tv-led-50-4k-tcl-50p8m-com-android-tv-controle-remoto-comando-de-voz-hdr-micro-dimming-google-assistant-bluetooth-hdmi-e-usb-55000477.jpg"
     },
     {
       id: '3',
-      name: 'TV 2',
-      price: 1250.27,
+      name: 'TV Samsung 4K 65"',
+      price: 4399.99,
       condition: 'Novo',
-      picture: "https://www.casasbahia-imagens.com.br/Informatica/Notebook/55006647/1312426042/macbook-air-apple-core-i5-8gb-512gb-ssd-tela-retina-13-3-macos-mvh22bz-a-cinza-espacial-55006647.jpg"
+      picture: "https://www.casasbahia-imagens.com.br/tv-video/Televisores/TV4K/15341367/1116699112/smart-tv-led-65-uhd-4k-samsung-65ru7100-com-controle-remoto-unico-visual-livre-de-cabos-bluetooth-hdr-premium-hdmi-e-usb-15341367.jpg://www.https://a-static.mlcdn.com.br/618x463/iphone-11-apple-preto-64gb-desbloqueado-mwlt2br-a/lojaiplace/212670/1a5b409881d3c0af1aa752d521045137.jpg-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1175175679://www.casasbahia-imagens.com.br/Informatica/Notebook/55006647/1312426042/macbook-air-apple-core-i5-8gb-512gb-ssd-tela-retina-13-3-macos-mvh22bz-a-cinza-espacial-55006647.jpg"
     },
     {
       id: '4',
-      name: 'TV 2',
-      price: 1250.27,
+      name: 'TV Sony 4K 55"',
+      price: 3899.90,
       condition: 'Novo',
-      picture: "https://www.casasbahia-imagens.com.br/Informatica/Notebook/55006647/1312426042/macbook-air-apple-core-i5-8gb-512gb-ssd-tela-retina-13-3-macos-mvh22bz-a-cinza-espacial-55006647.jpg"
+      picture: "https://www.casasbahia-imagens.com.br/tv-video/Televisores/TV4K/11799818/862777372/smart-tv-led-55-hdr-ultra-hd-4k-sony-kd-55x705e-br6-com-youtube-integrado-hdmi-e-usb-11799818.jpg"
     }
   ]
 

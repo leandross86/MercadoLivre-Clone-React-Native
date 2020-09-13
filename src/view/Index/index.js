@@ -33,7 +33,7 @@ const DrawerContent = ({ navigation }) => {
     {
       id: 1,
       name: 'Home',
-      action: 'Home',
+      action: 'Main',
       icon: <AntDesign name="home" size={24} color="black" />,
     },
     {

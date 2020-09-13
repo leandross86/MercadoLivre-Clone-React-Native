@@ -58,7 +58,7 @@ const optionHeader = ({ navigation }) => ({
 
 export default function Navigation() {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator initialRouteName="List">
       <Stack.Screen
         component={Main}
         name="Main"
