@@ -16,7 +16,7 @@ export default function Signup() {
     if(user, pass){
       firebase.auth().createUserWithEmailAndPassword(user, pass)
       .then((response) => {
-        Alert.alert('Ok', 'Tudo certo')
+        Alert.alert('Ok', 'Cadasrto criado com sucesso!')
       })
       .catch((erro) => {
         console.log(erro)
